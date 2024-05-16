@@ -18,16 +18,9 @@ conda activate lasenet
 ```
 
 ## Training
-- Generate simulation data by running the notebook `simulation/simulate.ipynb`. The generated data is saved to `data` folder. We also include sample data in `zip` file for Meta RL and GLM-HMM models.
-- Train the LastNet by running the notebook ``
+- Generate simulation data by running the notebook `simulation/simulate.ipynb`. The generated data will be saved to `data` folder. We also include sample data in `zip` file for Meta RL and GLM-HMM models.
+- Train the LastNet by running the notebook `training.ipynb`. The notebook shows how we train and fine-tune LaseNet for differet computational cognitive models. The generated model will be saved to `results` folder.
 
-To train the model(s) in the paper, run this command:
-
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
 
 ## Evaluation
 

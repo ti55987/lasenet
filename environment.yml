@@ -21,6 +21,8 @@ dependencies:
   # - python-kaleido
   - pip:
       - mat73
+      - keras-hypetune
+      - evidential-deep-learning
       # - sentencepiece
       # - torchvision      
       - jupyter_contrib_nbextensions
