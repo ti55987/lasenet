@@ -1,22 +1,24 @@
 
 # Latent Variable Sequence Identification for Cognitive Models with Neural Bayes Estimation
 
-This repository is the official implementation of LaseNet:Latent Variable Sequence Identification for Cognitive Models with Neural Bayes Estimation
-<!-- (https://arxiv.org/abs/2030.12345).  -->
+This repository is the official implementation of LaseNet: Latent Variable Sequence Identification for Cognitive Models with Neural Bayes Estimation
+<!-- add a paper link optional.  -->
 
 
 ## Requirements
 
-To install requirements:
+To install requirements, first create a conda environment from the environment yaml file by running
 
 ```setup
-pip install -r requirements.txt
+conda env create -f environment.yml
+```
+Activate this environment by running
+```
+conda activate lasenet
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
 ## Training
-
+### Simulation Data
 To train the model(s) in the paper, run this command:
 
 ```train

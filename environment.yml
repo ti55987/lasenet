@@ -1,0 +1,29 @@
+name: lasenet
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # - openblas
+  - python=3.8.10
+  - pandas
+  - numpy
+  - scipy
+  - tensorflow=2.14.0
+  - scikit-learn
+  - matplotlib
+  # - plotnine
+  - tqdm=4.59.0
+  # - docopt=0.6.2
+  - jupyterlab
+  - seaborn
+  - pytables
+  - pip=21.1.2
+  # - python-kaleido
+  - pip:
+      - mat73
+      # - sentencepiece
+      # - torchvision      
+      - jupyter_contrib_nbextensions
+      # - sacrebleu
+      # - nltk
+      - timeout_decorator
