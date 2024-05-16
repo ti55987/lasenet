@@ -1,0 +1,8 @@
+.DS_Store
+*.mat
+__pycache__/
+*.csv
+*.pkl
+.ipynb_checkpoints/
+data/
+results/
