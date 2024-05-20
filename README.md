@@ -39,13 +39,14 @@ We used MATLAB to implement MLE/MAP.  Please install the following toolkits befo
 
 ## Evaluation
 
-Compare the LastNet and bechmark methods by running the notebook `eval.ipynb`. The notebook includes evaluation sample for 4-P RL and HRL. 
+Compare the LastNet and bechmark methods by running the notebook `eval.ipynb`. The notebook includes evaluation sample for 4-P RL and HRL.
 
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+### Real data
+The experiments on real mice data in this work can be reproduced in `mice_fitting/figures_real_data.ipynb`. `mice_fitting` folder includes code and mice data.
 
 ## Pre-trained Models
 
-You can download pretrained models from the Google Drive here:
+You can find all the pretrained models under `results/models`.  You can also download additional pretrained models hosted on the Google Drive:
 
 - [Model](https://drive.google.com/drive/folders/1--Ywm9IQbv0Z7B160Udi81y4uVKLWAJ-?usp=sharing) trained on 4-P RL with 9000 simulated agents and 500 trials per agent.
 - [Model](https://drive.google.com/drive/folders/1-QzmG81fyu8hQWWfL3BwllzEA4l9f1ne?usp=sharing) trained on Meta RL with 9000 simulated agents and 720 trials per agent.
