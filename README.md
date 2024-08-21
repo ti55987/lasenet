@@ -2,7 +2,6 @@
 # Latent Variable Sequence Identification for Cognitive Models with Neural Bayes Estimation
 
 This repository is the official implementation of [LaseNet: Latent Variable Sequence Identification for Cognitive Models with Neural Bayes Estimation](https://arxiv.org/abs/2406.14742)
-<!-- add a paper link optional.  -->
 
 
 ## Requirements
