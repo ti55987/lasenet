@@ -3,6 +3,20 @@ from ssm.util import find_permutation
 
 
 def fit_glmhmm_em(prior_config: dict, n_session, inpts, true_choices, true_latent=[]):
+    """
+    Fit a Generalized Linear Model-Hidden Markov Model (GLM-HMM) to the given choices and inputs.
+
+    Args:
+        prior_config (dict): Dictionary containing prior hyperparameters for the GLM-HMM.
+        n_session (int): Number of sessions to fit.
+        inpts (array-like): Array of input data.
+        true_choices (array-like): Array of true choices.
+        true_latent (array-like, optional): Array of true latent variables.
+
+    Returns:
+        posterior_probs (list): List of posterior probabilities over states for each session.
+        all_recovered_weights (list): List of recovered weights for each session.
+    """
     # maximum number of EM iterations. Fitting with stop earlier if increase in LL is below tolerance specified by tolerance parameter
     N_iters = 200
 

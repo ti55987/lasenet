@@ -1,7 +1,7 @@
 
-# Latent Variable Sequence Identification for Cognitive Models with Neural Bayes Estimation
+# Latent Variable Sequence Identification for Cognitive Models with Neural Network Estimators
 
-This repository is the official implementation of [LaseNet: Latent Variable Sequence Identification for Cognitive Models with Neural Bayes Estimation](https://arxiv.org/abs/2406.14742)
+This repository is the official implementation of [LaseNet: Latent Variable Sequence Identification for Cognitive Models with Neural Network Estimators](https://arxiv.org/abs/2406.14742)
 
 
 ## Requirements
@@ -50,6 +50,7 @@ You can find all the pretrained models under `results/models`.  You can also dow
 - [Model](https://drive.google.com/drive/folders/1--Ywm9IQbv0Z7B160Udi81y4uVKLWAJ-?usp=sharing) trained on 4-P RL with 9000 simulated agents and 500 trials per agent.
 - [Model](https://drive.google.com/drive/folders/1-QzmG81fyu8hQWWfL3BwllzEA4l9f1ne?usp=sharing) trained on Meta RL with 9000 simulated agents and 720 trials per agent.
 - [Model](https://drive.google.com/drive/folders/11CdQDc5JUvMCWhUA38zup4e2UTAgVjns?usp=sharing) trained on HRL with 9000 simulated agents and 720 trials per agent.
+- [Model](https://drive.google.com/file/d/1-5QmsZmqH2sl_Kt5Y8RXtwYMlS_LysgL/view?usp=sharing) trained on Weber-imprecision with 6000 simulated agents and 300 trials per agent.
 - [Model](https://drive.google.com/drive/folders/1-0kDCGjrppynMczjJt6Uq3Z-jCES-cTr?usp=sharing) trained on GLM-HMM with 9000 simulated agents and 720 trials per agent.
 
 
