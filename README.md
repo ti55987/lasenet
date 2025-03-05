@@ -3,6 +3,7 @@
 
 This repository is the official implementation of [LaseNet: Latent Variable Sequence Identification for Cognitive Models with Neural Network Estimators](https://arxiv.org/abs/2406.14742)
 
+If you want to run the code in Google Colab, please check out the [colab example](https://colab.research.google.com/drive/1-5QmsZmqH2sl_Kt5Y8RXtwYMlS_LysgL?usp=sharing)
 
 ## Requirements
 
